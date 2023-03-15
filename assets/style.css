@@ -1,0 +1,33 @@
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* adjust the width of the scroll bar */
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+/* adjust the color of the scrollbar */
+body::-webkit-scrollbar-track{
+    background: rgb(255, 144, 192);
+}
+
+/* adjust the color of the scrollbar pointer */
+body::-webkit-scrollbar-track{
+    background: rgb(160, 102, 246);
+}
+
+main { 
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 5rem;
+    height: 100vh; /* vh is always relevant to the size of the viewport*/
+    position: fixed; 
+    background-color: rgb(130, 0, 0);
+}
