@@ -1,3 +1,14 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open sans';
+    /* defining variables in my css styles so that i can reuse colors using only the text*/
+    --text-primary: #b6b6b6; 
+    --text-seconday: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+}
+
 body {
     color: black;
     background-color: white;
@@ -5,29 +16,93 @@ body {
     padding: 0;
 }
 
+main { 
+    /* rem is a unit that is relative to the font size on the root element */
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
 /* adjust the width of the scroll bar */
 body::-webkit-scrollbar{
-    width: 0.25rem;
+    width: 0.5rem;
 }
 
 /* adjust the color of the scrollbar */
 body::-webkit-scrollbar-track{
-    background: rgb(255, 144, 192);
+    background: rgb(255, 255, 255);
 }
 
 /* adjust the color of the scrollbar pointer */
-body::-webkit-scrollbar-track{
-    background: rgb(160, 102, 246);
-}
-
-main { 
-    margin-left: 5rem;
-    padding: 1rem;
+body::-webkit-scrollbar-thumb{
+    background: #ff7eee;
 }
 
 .navbar {
     width: 5rem;
     height: 100vh; /* vh is always relevant to the size of the viewport*/
     position: fixed; 
-    background-color: rgb(130, 0, 0);
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+    overflow: scroll;
 }
+
+.navbar-nav{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item{
+    width: 100%
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 200ms;
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    width: 2rem;
+    min-width: 5rem;
+    margin: 1.5rem;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.navbar:hover .link-text{
+    display: block;
+}
+
+.icon {
+    color: #ff7eee;
+}
+
+
+
+
+
+
+
