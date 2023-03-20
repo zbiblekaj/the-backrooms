@@ -192,6 +192,7 @@ h2, h1, p {
 
 #intro {
     height: 500px;
+    margin-left: 20%;
     background-image: url(./images/the\ backrooms.gif);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -302,17 +303,5 @@ div .entity, .entity1, .entity2, .entity3, .entity4, .entity5 {
     margin-bottom: 45%;
     font-weight: lighter;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
