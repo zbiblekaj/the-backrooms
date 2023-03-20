@@ -8,6 +8,10 @@
     src: url(./data-control/data-unifon.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     font-size: 16px;
     font-family: computer;
@@ -46,7 +50,7 @@ body::-webkit-scrollbar-track{
 
 /* adjust the color of the scrollbar pointer */
 body::-webkit-scrollbar-thumb{
-    background: #ff7eee;
+    background: white;
 }
 
 .navbar {
@@ -165,31 +169,89 @@ h2, h1, p {
     text-align: right;
     margin-left: 20%;
 }
-.intro {
+#intro {
     height: 400px;
 }
 
-.section1 {
-    border: 50px;
+
+#level0-container, #level1-container, #level2-container, #level3-container, #level4-container, #level5-container {
+    border: 0px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
-.section1 h1 {
+#level0-container {
+    border-left: solid 5px #ff7eee;
+}
+#level0-container h1 {
     color: #ff7eee
 }
 
-.level0 {
+#level1-container {
+    border-left: solid 5px #ff0000;
+}
+#level1-container h1 {
+    color:#ff0000;
+}
+
+#level2-container {
+    border-left: solid 5px #ffa500;
+}
+#level2-container h1 {
+    color:#ffa500;
+}
+
+#level3-container {
+    border-left: solid 5px #FFFF00;
+}
+#level3-container h1 {
+    color:#FFFF00;
+}
+
+#level4-container {
+    border-left: solid 5px #00FF00;
+}
+#level4-container h1 {
+    color:#00FF00;
+}
+
+#level5-container {
+    border-left: solid 5px #45B6FE;
+}
+#level5-container h1 {
+    color:#45B6FE;
+}
+
+img {
     max-width: 80%;
     max-height: 80%;
     margin-left: 20%;
-    margin-right: 0px;
+    margin-right: 0%;
     justify-content: right;
     -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
-div {
-    height: 1100px;
+.level0-entities, .level1-entities, .level2-entities, .level3-entities, .level4-entities, .level5-entities {
+    display: flex;
+    justify-content: right;
+    margin-left: 20%;
+    margin-right: 0%;
 }
+
+div .entity {
+    border: 2px solid #ff0000;
+    margin: 5px;
+    height: 30vh;
+    width: 30vh;
+}
+
+.entity h3 {
+    text-align: center;
+}
+
+
 
 
 
