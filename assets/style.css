@@ -465,10 +465,61 @@ div .partygoer4, .insanity4, .duller4, .smiler4, .faceling4, .boiled4 {
     background-position: center;
 }
 
-
-.entity5{
+div .hound5, .woodlin5, .skinstealer5, .watcher5, .ngu5, .growler5, .deathrat5 {
+    margin: 5px;
+    height: 30vh;
+    width: 30vh;
     border: 2px solid #45B6FE;
 }
+
+.skinstealer5:hover {
+    background-image: url(./images/skinstealer.cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hound5:hover {
+    background-image: url(./images/hound.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.woodlin5:hover {
+    background-image: url(./images/woodlin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.watcher5:hover {
+    background-image: url(./images/watcher.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ngu5:hover {
+    background-image: url(./images/ngu.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.growler5:hover {
+    background-image: url(./images/growler.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.deathrat5:hover {
+    background-image: url(./images/deathrat.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 
