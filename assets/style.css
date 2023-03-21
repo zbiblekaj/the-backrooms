@@ -267,22 +267,91 @@ img {
     flex-wrap: wrap;
 }
 
-div .entity, .entity1, .entity2, .entity3, .entity4, .entity5 {
+.level0-entities h3, .level1-entities h3, .level2-entities h3, .level3-entities h3, .level4-entities h3, .level5-entities h3 {
+    text-align: center;
+    margin-top: 45%;
+    margin-bottom: 45%;
+    font-weight: lighter;
+}
+
+div .duller1, .scratcher1, .skinstealer1, .hound1, .faceling1, .scratcher1 {
     margin: 5px;
     height: 30vh;
     width: 30vh;
-}
-
-.entity{
-    border: 2px solid #ff7eee;
-}
-
-.entity1{
     border: 2px solid #ff0000;
 }
 
-.entity2{
+.skinstealer1:hover {
+    background-image: url(./images/skinstealer.cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scratcher1:hover {
+    background-image: url(./images/scratcher.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hound1:hover {
+    background-image: url(./images/hound.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.duller1:hover {
+    background-image: url(./images/duller-cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faceling1:hover {
+    background-image: url(./images/faceling-cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div .faceling2, .hound2, .smiler2, .scratcher2 {
+    margin: 5px;
+    height: 30vh;
+    width: 30vh;
     border: 2px solid #ffa500;
+}
+
+.faceling2:hover {
+    background-image: url(./images/faceling-cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scratcher2:hover {
+    background-image: url(./images/scratcher.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hound2:hover {
+    background-image: url(./images/hound.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smiler2:hover {
+    background-image: url(./images/smiler.cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.entity{
+    border: 2px solid #ff7eee;
 }
 
 .entity3{
@@ -297,11 +366,5 @@ div .entity, .entity1, .entity2, .entity3, .entity4, .entity5 {
     border: 2px solid #45B6FE;
 }
 
-.entity h3, .entity1 h3, .entity2 h3, .entity3 h3, .entity4 h3, .entity5 h3 {
-    text-align: center;
-    margin-top: 45%;
-    margin-bottom: 45%;
-    font-weight: lighter;
-}
 
 
