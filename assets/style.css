@@ -267,7 +267,7 @@ img {
     flex-wrap: wrap;
 }
 
-.level0-entities h3, .level1-entities h3, .level2-entities h3, .level3-entities h3, .level4-entities h3, .level5-entities h3 {
+.level1-entities h3, .level2-entities h3, .level3-entities h3, .level4-entities h3, .level5-entities h3 {
     text-align: center;
     margin-top: 45%;
     margin-bottom: 45%;
@@ -349,18 +349,122 @@ div .faceling2, .hound2, .smiler2, .scratcher2 {
     background-position: center;
 }
 
-
-.entity{
-    border: 2px solid #ff7eee;
-}
-
-.entity3{
+div .faceling3, .hound3, .wretch3, .deathmoth3, .skinstealer3, .duller3, .smiler3, .clump3, .burster3 {
+    margin: 5px;
+    height: 30vh;
+    width: 30vh;
     border: 2px solid #FFFF00;
 }
 
-.entity4{
+.faceling3:hover {
+    background-image: url(./images/faceling-cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hound3:hover {
+    background-image: url(./images/hound.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wretch3:hover {
+    background-image: url(./images/wretches.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smiler3:hover {
+    background-image: url(./images/smiler.cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.duller3:hover {
+    background-image: url(./images/duller-cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skinstealer3:hover {
+    background-image: url(./images/skinstealer.cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clump3:hover {
+    background-image: url(./images/clump.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.deathmoth3:hover {
+    background-image: url(./images/deathmoth.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.burster3:hover {
+    background-image: url(./images/Light-Burster.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div .partygoer4, .insanity4, .duller4, .smiler4, .faceling4, .boiled4 {
+    margin: 5px;
+    height: 30vh;
+    width: 30vh;
     border: 2px solid #00FF00;
 }
+
+.smiler4:hover {
+    background-image: url(./images/smiler.cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.duller4:hover {
+    background-image: url(./images/duller-cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faceling4:hover {
+    background-image: url(./images/faceling-cartoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.partygoer4:hover {
+    background-image: url(./images/partygoer.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.insanity4:hover {
+    background-image: url(./images/wretches.cartoon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boiled4:hover {
+    background-image: url(./images/boiled.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .entity5{
     border: 2px solid #45B6FE;
